@@ -1,0 +1,28 @@
+{
+  "name": "wrwps_blocks_cli",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap a new Gutenberg block",
+  "main": "src/index.js",
+  "bin": {
+    "@nikola_wd/new-block": "bin/new-block",
+    "new-block": "bin/new-block"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikola-wd/wrwps-blocks-cli.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webredone"
+  ],
+  "author": "Nikola Ivanov - webredone.com",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
